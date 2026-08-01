@@ -1,0 +1,37 @@
+.frame-panel {
+    position: relative;
+    background: rgba(12,23,18,.72);
+    border: 1px solid var(--color-border);
+    backdrop-filter: blur(18px);
+    transition: .35s;
+}
+
+.frame-panel:hover{
+    border-color: rgba(139,132,80,.55);
+}
+
+.frame-panel::before{
+    content:"";
+    position:absolute;
+    top:-1px;
+    left:-1px;
+    width:22px;
+    height:22px;
+    border-top:2px solid var(--color-accent);
+    border-left:2px solid var(--color-accent);
+}
+
+.frame-panel::after{
+    content:"";
+    position:absolute;
+    right:-1px;
+    bottom:-1px;
+    width:22px;
+    height:22px;
+    border-right:2px solid var(--color-accent);
+    border-bottom:2px solid var(--color-accent);
+}
+
+.frame-panel--glow{
+    box-shadow: 0 0 50px rgba(139,132,80,.05);
+}

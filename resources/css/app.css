@@ -1,0 +1,83 @@
+@import "./fonts.css";
+@import "tailwindcss";
+@import "./variables.css";
+@import "./base.css";
+@import "./animations.css";
+
+@source '../../vendor/laravel/framework/src/Illuminate/Pagination/resources/views/*.blade.php';
+@source '../../storage/framework/views/*.php';
+
+
+@theme {
+
+    --font-sans: "Geist", sans-serif;
+
+    --color-background: #08110C;
+    --color-surface: #101A13;
+    --color-surface-light: #12211A;
+
+    --color-primary: #8B8450;
+    --color-primary-hover: #A79F66;
+
+    --color-text: #F5F5F5;
+    --color-text-muted: #9BA39C;
+
+    --color-border: #252F28;
+
+    --radius-sm: 10px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
+
+    --shadow-glow: 0 0 60px rgba(139,132,80,.18);
+}
+
+
+:root {
+    /* Colors */
+    --color-background: #08110C;
+    --color-surface: #101A13;
+    --color-surface-light: #12211A;
+
+    --color-text: #F5F5F5;
+    --color-text-muted: #9BA39C;
+
+    --color-accent: #8B8450;
+    --color-accent-light: #B7AE72;
+
+    --color-border: #252F28;
+
+    /* Layout */
+    --container-width: 1440px;
+
+    /* Radius */
+    --radius-sm: 10px;
+    --radius-md: 16px;
+    --radius-lg: 24px;
+    --radius-xl: 32px;
+
+    /* Shadows */
+    --shadow-glow: 0 0 60px rgba(139,132,80,.18);
+
+    /* Transition */
+    --transition: 300ms ease;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+section[id] {
+    scroll-margin-top: 120px;
+}
+
+body {
+    background: var(--color-background);
+    color: var(--color-text);
+    font-family: "Geist", sans-serif;
+    overflow-x: hidden;
+}
+
+button {
+    @apply cursor-pointer;
+}
