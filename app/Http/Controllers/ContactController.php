@@ -22,9 +22,12 @@ class ContactController extends Controller
             'user_agent' => $request->userAgent(),
         ]);
 
-        // Пока SMTP не настроен
-        // Mail::to(config('mail.contact_address'))
-        //     ->send(new ContactMail($contact));
+        try {
+            Mail::to(config('mail.contact_address'))
+                ->send(new ContactMail($contact));
+        } catch (\Throwable $exception) {
+            report($exception);
+        }
 
         return back()->with('success', 'Заявка успешно отправлена.');
     }

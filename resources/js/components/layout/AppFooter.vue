@@ -218,7 +218,7 @@ const currentYear = new Date().getFullYear()
                                 </p>
 
                                 <a
-                                    href="tel:+77777777777"
+                                    href="tel:+77479979711"
                                     class="
                                         mt-2
                                         inline-block
@@ -229,7 +229,22 @@ const currentYear = new Date().getFullYear()
                                         hover:text-primary
                                     "
                                 >
-                                    +7 (777) 777 77 77
+                                    +7 (747) 997 97 11
+                                </a>
+
+                                <a
+                                    href="tel:+77478049969"
+                                    class="
+                                        mt-2
+                                        inline-block
+                                        text-base
+                                        text-text
+                                        transition-colors
+                                        duration-300
+                                        hover:text-primary
+                                    "
+                                >
+                                    +7 (747) 804 99 69
                                 </a>
                             </div>
 
@@ -239,7 +254,7 @@ const currentYear = new Date().getFullYear()
                                 </p>
 
                                 <a
-                                    href="mailto:info@m-core.kz"
+                                    href="mailto:mcore.ppe@gmail.com"
                                     class="
                                         mt-2
                                         inline-block
@@ -250,7 +265,7 @@ const currentYear = new Date().getFullYear()
                                         hover:text-primary
                                     "
                                 >
-                                    info@m-core.kz
+                                    mcore.ppe@gmail.com
                                 </a>
                             </div>
 
@@ -270,7 +285,7 @@ const currentYear = new Date().getFullYear()
                                 </p>
 
                                 <p class="mt-2 text-base leading-7 text-text">
-                                    Пн–Пт, 09:00–18:00
+                                    Пн–Вс, 08:00-21:00
                                 </p>
                             </div>
                         </div>
