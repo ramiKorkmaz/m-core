@@ -1,0 +1,96 @@
+{
+  "resources/css/app.css": {
+    "file": "assets/app-Dn44C8zF.css",
+    "name": "app",
+    "names": [
+      "app.css"
+    ],
+    "src": "resources/css/app.css",
+    "isEntry": true,
+    "assets": [
+      "assets/Geist-VariableFont_wght-C7M6Z1jt.ttf",
+      "assets/Geist-Italic-VariableFont_wght-Detbahke.ttf"
+    ]
+  },
+  "resources/js/app.js": {
+    "file": "assets/app-Byw7eDa3.js",
+    "name": "app",
+    "src": "resources/js/app.js",
+    "isEntry": true,
+    "dynamicImports": [
+      "resources/js/pages/Home.vue"
+    ]
+  },
+  "resources/js/assets/fonts/Geist/Geist-Italic-VariableFont_wght.ttf": {
+    "file": "assets/Geist-Italic-VariableFont_wght-Detbahke.ttf",
+    "src": "resources/js/assets/fonts/Geist/Geist-Italic-VariableFont_wght.ttf"
+  },
+  "resources/js/assets/fonts/Geist/Geist-VariableFont_wght.ttf": {
+    "file": "assets/Geist-VariableFont_wght-C7M6Z1jt.ttf",
+    "src": "resources/js/assets/fonts/Geist/Geist-VariableFont_wght.ttf"
+  },
+  "resources/js/assets/images/Logo-M.svg": {
+    "file": "assets/Logo-M-D3Wwsnnk.svg",
+    "src": "resources/js/assets/images/Logo-M.svg"
+  },
+  "resources/js/assets/images/Logo-Name.svg": {
+    "file": "assets/Logo-Name-hlTRXq49.svg",
+    "src": "resources/js/assets/images/Logo-Name.svg"
+  },
+  "resources/js/assets/images/categories/chemistry.webp": {
+    "file": "assets/chemistry-DYWh4vF-.webp",
+    "src": "resources/js/assets/images/categories/chemistry.webp"
+  },
+  "resources/js/assets/images/categories/clothes.webp": {
+    "file": "assets/clothes-HS7Twd4U.webp",
+    "src": "resources/js/assets/images/categories/clothes.webp"
+  },
+  "resources/js/assets/images/categories/consumables.webp": {
+    "file": "assets/consumables-DT_G4EeD.webp",
+    "src": "resources/js/assets/images/categories/consumables.webp"
+  },
+  "resources/js/assets/images/categories/ppe.webp": {
+    "file": "assets/ppe-9grhq-rP.webp",
+    "src": "resources/js/assets/images/categories/ppe.webp"
+  },
+  "resources/js/assets/images/owners/owner-1.png": {
+    "file": "assets/owner-1-BiQwt7CT.png",
+    "src": "resources/js/assets/images/owners/owner-1.png"
+  },
+  "resources/js/assets/images/owners/owner-2.png": {
+    "file": "assets/owner-2-DeXCHUlE.png",
+    "src": "resources/js/assets/images/owners/owner-2.png"
+  },
+  "resources/js/assets/images/partners/pepsico.svg": {
+    "file": "assets/pepsico-BJ3mf25G.svg",
+    "src": "resources/js/assets/images/partners/pepsico.svg"
+  },
+  "resources/js/assets/images/partners/philip-morris.webp": {
+    "file": "assets/philip-morris-G0py5Ca1.webp",
+    "src": "resources/js/assets/images/partners/philip-morris.webp"
+  },
+  "resources/js/pages/Home.vue": {
+    "file": "assets/Home-6e83NLNe.js",
+    "name": "Home",
+    "src": "resources/js/pages/Home.vue",
+    "isDynamicEntry": true,
+    "imports": [
+      "resources/js/app.js"
+    ],
+    "css": [
+      "assets/Home-BmFqB-KQ.css"
+    ],
+    "assets": [
+      "assets/Logo-Name-hlTRXq49.svg",
+      "assets/Logo-M-D3Wwsnnk.svg",
+      "assets/ppe-9grhq-rP.webp",
+      "assets/clothes-HS7Twd4U.webp",
+      "assets/consumables-DT_G4EeD.webp",
+      "assets/chemistry-DYWh4vF-.webp",
+      "assets/owner-1-BiQwt7CT.png",
+      "assets/owner-2-DeXCHUlE.png",
+      "assets/pepsico-BJ3mf25G.svg",
+      "assets/philip-morris-G0py5Ca1.webp"
+    ]
+  }
+}
