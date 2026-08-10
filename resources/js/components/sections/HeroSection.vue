@@ -17,8 +17,8 @@ import HeroMark from '@/assets/images/Logo-M.svg'
                     <h1 v-reveal="100" class="mt-8 max-w-3xl text-5xl md:text-6xl xl:text-7xl font-light leading-[0.95] tracking-tight">Скорость поставки, на которую можно рассчитывать.</h1>
                     <p v-reveal="250" class="mt-8 max-w-xl text-lg leading-8 text-text-muted">Комплексно обеспечиваем предприятия средствами индивидуальной защиты, спецодеждой и профессиональными расходными материалами с поставкой по Казахстану.</p>
                     <div v-reveal="400" class="mt-12 flex flex-col sm:flex-row gap-4">
-                        <BaseButton class="w-full sm:w-auto">Получить КП</BaseButton>
-                        <BaseButton class="w-full sm:w-auto" variant="outline">Каталог</BaseButton>
+                        <BaseButton :href="'https://wa.me/+77479979711'" target="_blank" class="w-full sm:w-auto">Получить КП</BaseButton>
+                        <BaseButton :href="'#categories'" class="w-full sm:w-auto" variant="outline">Каталог</BaseButton>
                     </div>
                     <!-- <HeroStats /> -->
                 </div>
