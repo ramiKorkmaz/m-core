@@ -70,7 +70,7 @@ onUnmounted(() => {
                     </nav>
                     <!-- CTA -->
                     <div class="hidden lg:block">
-                        <BaseButton>Получить КП</BaseButton>
+                        <BaseButton :href="'https://wa.me/+77479979711'" target="_blank">Получить КП</BaseButton>
                     </div>
                     <!-- Mobile -->
                     <button class="flex h-11 w-11 items-center justify-center rounded-xl border border-border transition-all duration-300 hover:border-primary hover:text-primary lg:hidden" aria-label="Открыть меню" @click="mobileOpen = true">
