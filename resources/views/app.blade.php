@@ -65,7 +65,7 @@
     <meta name="twitter:description" content="Поставка СИЗ, спецодежды и расходных материалов для бизнеса в Алматы и по Казахстану.">
 
     <meta name="twitter:image" content="https://m-core.kz/images/m-core-cover.png">
-
+    @verbatim
     <script type="application/ld+json">
         {
             "@context": "https://schema.org",
@@ -84,6 +84,7 @@
             }
         }
     </script>
+    @endverbatim
 
     @inertiaHead
 </head>
